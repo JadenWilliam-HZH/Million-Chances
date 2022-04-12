@@ -1,0 +1,13 @@
+/* button un-reponsive */
+@media screen and (max-width: 1400px) {
+    .nav-first-item-css {
+        margin-left: 200%;
+    }
+}
+
+/* button un-reponsive */
+@media screen and (max-width: 1200px) {
+    .nav-first-item-css {
+        margin-left: 140%;
+    }
+}
