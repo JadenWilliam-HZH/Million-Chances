@@ -1,7 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    /* user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    text-decoration: none; */
 }
+
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -14,6 +21,9 @@ body {
     box-shadow: 0px 4px 7px 0px rgba(145,145,145,0.93);
     -webkit-box-shadow: 0px 4px 7px 0px rgba(145,145,145,0.93);
     -moz-box-shadow: 0px 4px 7px 0px rgba(145,145,145,0.93);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .nav-css {
@@ -34,5 +44,70 @@ body {
     border: 0;
 }
 
+/* Hero */
+.flex-container {
+    display: flex;
+}
+
+.hero-svg {
+    width: 700px;
+    margin-left: 20%;
+    margin-top: 15%;
+    user-select: none;
+}
+
+.hero-text {
+    display: inline;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: right;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.second-hero-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: color: rgba(0,0,0,.55);
+    opacity: 0.8;
+}
+
+.main-button {
+    width: 170px;
+    height: 50px;
+    color: #1a1c29;
+    font-size: 16px;
+    margin-top: 100px;
+    background-color: white;
+    border: solid 4px #1a1c29;
+    transition: 0.5s;
+}
+
+.main-button:hover {
+    color: white;
+    background-color: #1a1c29;
+}
 
 
+/* Volunteer */
+/* ------------------------------- */
+.volunteer-blog-title {
+    font-size: 40px;
+    font-weight: 800;
+    color: #1a1c29;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.blog-header-img {
+    text-align: center;
+    display: block;
+}
+
+.blog-body {
+    font-size: 22px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    line-height: 50px;
+}

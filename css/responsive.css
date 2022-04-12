@@ -3,6 +3,16 @@
     .nav-first-item-css {
         margin-left: 200%;
     }
+
+    .hero-text {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .main-button {
+        display: block;
+    }
 }
 
 /* button un-reponsive */
